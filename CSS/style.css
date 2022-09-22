@@ -161,6 +161,21 @@ body {
 }
 
 
+/* specific-blogs page */
+
+/* blog div */
+.blog-div{
+    text-align: left;
+    color: #0096FF;
+    font-family: 'Gideon Roman', cursive;
+}
+.blog-reader{
+    font-family: 'Inconsolata', monospace;
+}
+.blog-reader:hover{
+    color: #D6EFED;
+}
+
 /* responsive */
 @media only screen and (max-device-width: 450px){
     .nav-list-items{
