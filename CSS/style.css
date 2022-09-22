@@ -4,6 +4,9 @@
 /* body */
 body {
     background-color: #100720;
+    margin: auto;
+}
+.body{
     max-width: 80%;
     margin: auto;
 }
