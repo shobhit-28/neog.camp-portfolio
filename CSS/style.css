@@ -146,6 +146,20 @@ body {
 }
 
 
+/* projects page */
+
+/* standard-template-for-h1-h3-h5 */
+.stndrd-h1{
+    margin-bottom: 10px;
+}
+.stndrd-h3{
+    margin-top: 0px;
+}
+.stndrd-h5{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
 
 /* responsive */
 @media only screen and (max-device-width: 450px){
