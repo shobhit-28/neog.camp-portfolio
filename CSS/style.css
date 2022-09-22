@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Gideon+Roman&family=Merriweather:ital,wght@0,300;1,300&family=Satisfy&display=swap');
+
+
+/* body */
+body {
+    background-color: #100720;
+    max-width: 80%;
+    margin: auto;
+}
+
+/* navbar */
+.navbar {
+    background-color: #16213E;
+    height: 6%;
+    border-radius: 0px 0px 0px 30px;
+    padding: 0.5% 3% 0.5% 3%;
+}
+.brand{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.nav-link{
+    color: #0096FF;
+    text-decoration: none;
+}
+.nav-link:visited{
+    color: #0096FF;
+}
+.nav-list{
+    color: #0096FF;
+    font-family: 'Merriweather', serif;
+    text-align: right;
+    margin-top: 0px;
+}
+.nav-list-items{
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    font-size: 1.2rem;
+}
+.current-page{
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* intro */
+.intro{
+    padding: 3%;
+}
+.picture{
+    text-align: center;
+}
+.photo{
+    height: 20rem;
+    margin-top: 1.5rem;
+}
+.intro-name-sect{
+    font-family: 'Satisfy', cursive;
+    color: #0096FF;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.intro-span{
+    color: #5800FF;
+}
+
+/* tech*/
+.tech{
+    background-color: #1B2430;
+    text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    border-radius: 30px;
+    color: #0096FF;
+    font-family: 'Gideon Roman', cursive;
+}
+
+/* blog */
+.blog{
+    background-color: #1B2430;
+    text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 3%;
+    border-radius: 30px;
+    color: #0096FF;
+    font-family: 'Gideon Roman', cursive;
+    margin-bottom: 2.5%;
+}
+.blog-btn{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 1%;
+    color: #5800FF;
+    border-radius: 25px;
+    border: 2px solid;
+}
+
+/* project */
+.projects{
+    text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    color: #0096FF;
+    font-family: 'Gideon Roman', cursive;
+    margin-bottom: 2%;
+}
+.project-btn{
+    text-decoration: none;
+    font-size: 1.2rem;
+    background-color: #5800FF;
+    padding: 1%;
+    color: aliceblue;
+    border-radius: 25px;
+}
+.project-button:visited{
+    color: aliceblue;
+}
+
+/* footer */
+.footer{
+    background-color: #16213E;
+    height: 6%;
+    border-radius: 30px 0px 0px 0px;
+    padding: 0.5% 3% 0.5% 3%;
+    text-align: center;
+    color: #0096FF;
+    font-family: 'Gideon Roman', cursive;
+}
+.foot-link{
+    color: #0096FF;
+    text-decoration: none;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+/* general */
+.inline-block{
+    display: inline-block;
+}
+.block{
+    display: block;
+    margin-right: 34px;
+}
+
+
+
+/* responsive */
+@media only screen and (max-device-width: 450px){
+    .nav-list-items{
+        display: block;
+        text-align: left;
+    }
+    .photo{
+        height: 10rem;
+    }
+}
