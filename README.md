@@ -4,8 +4,7 @@
 <h2>
     Languages used
 </h2>
-- HTML
-- CSS
+HTML and CSS
 
 <br />
 
